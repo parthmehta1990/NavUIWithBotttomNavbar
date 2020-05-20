@@ -40,4 +40,11 @@ class MainActivity : AppCompatActivity() {
     override fun onSupportNavigateUp(): Boolean {
         return NavigationUI.navigateUp(navController, null)
     }
+
+    /*
+    * NOTE:
+    * To Apply navigation in bottom navigation usig Navigation UI controller make sure that menu file id
+    * are same as navigation graph file's fragment id
+    *
+    * */
 }
